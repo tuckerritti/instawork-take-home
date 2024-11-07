@@ -50,9 +50,9 @@ This backend provides the following endpoints:
 
 - GET /api/members/ - List all team members
 - POST /api/members/ - Add a new team member
-- GET /api/members/<id>/ - Retrieve a team member by ID
-- PUT /api/members/<id>/ - Update a team member by ID
-- DELETE /api/members/<id>/ - Delete a team member by ID
+- GET /api/members/{id}/ - Retrieve a team member by ID
+- PUT /api/members/{id}/ - Update a team member by ID
+- DELETE /api/members/{id}/ - Delete a team member by ID
 
 ---
 
