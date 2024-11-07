@@ -28,7 +28,7 @@
           setError("Failed to load team member details. Please try again.");
         }
       }
-      fetchMember();
+      void fetchMember();
     }, [id]);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
